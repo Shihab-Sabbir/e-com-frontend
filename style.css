@@ -118,6 +118,9 @@ font-style: normal;
     background-color: #F0FFF0;
     width: min-content;
     }
+    .container{
+        max-width:360px;
+        overflow-x:hidden;
     .part-2 .image {
         position: absolute;
         transform: scale(0.9);
