@@ -225,7 +225,8 @@ body {
         align-items: center;
         margin-top: 150px !important;
         left: 10px;
-        width: 360px;
+        width: 350px;
+        margin-left: 30px;
     }
 }
 
@@ -375,7 +376,6 @@ body {
     min-height: 369px;
     background: #282531;
     padding-left: 100px;
-    margin-left: 30px;
 }
 
 .footer-body {
