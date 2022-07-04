@@ -140,14 +140,24 @@ body {
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:390px) {
     .part-2 {
         background-color: #F0FFF0;
         width: min-content;
     }
+    .testimonial-data{
+        position: absolute;
+        width: 340px !important;
+        height: fit-content;
+        text-align: left;
+        left: -45px;
+        margin-top: 30px;
+        padding-top: 130px;
+        margin-bottom: 50px;
+    }
 .container{
-    max-width: 19vw;
-    overflow-x: hidden;
+    max-width: 355px;
+    overflow-x: hidden !important;
 }
     .part-2 .image {
         position: absolute;
@@ -185,16 +195,16 @@ body {
     .item-3,
     .item-4,
     .t-info {
-        margin-left: 100px;
-        margin-right: auto;
+        margin-left: 50px;
+        margin-right: 50%;
     }
 
     .course-1,
     .course-2,
     .course-3,
     .t-info {
-        margin-left: 50px;
-        margin-right: auto;
+        margin-right: 50%;
+        transform: scale(.9);
     }
    .t-info{
     position: absolute;
@@ -210,10 +220,11 @@ body {
     .part-6 {
         position: absolute;
         display: flex;
+        background: #282531;
         flex-direction: column;
         align-items: center;
         margin-top: 150px !important;
-        left: -0px;
+        left: 10px;
         width: 360px;
     }
 }
@@ -347,7 +358,7 @@ body {
 }
 
 .testimonial img {
-    margin-right: 52px;
+    margin-right: 95px !important;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -369,15 +380,16 @@ body {
 .footer-body {
     display: flex;
     justify-content: space-around;
+    margin-right: -20px;
 }
 
 .footer-body ul {
     display: block;
-    width: 160px;
+    width: 180px;
     height: 180px;
     list-style: none;
     margin-top: 55px;
-    margin-right: auto;
+    margin-right: 50%;
     color: white;
     font-weight: 400;
     font-size: 16px;
