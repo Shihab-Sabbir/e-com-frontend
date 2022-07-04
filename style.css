@@ -201,8 +201,8 @@ body {
 
     .course-1,
     .course-2,
-    .course-3,
-    .t-info {
+    .course-3 {
+        margin-left: 10px;
         margin-right: 50%;
         transform: scale(.9);
     }
@@ -375,6 +375,7 @@ body {
     min-height: 369px;
     background: #282531;
     padding-left: 100px;
+    margin-left: 30px;
 }
 
 .footer-body {
