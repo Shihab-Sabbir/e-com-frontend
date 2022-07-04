@@ -70,7 +70,7 @@ font-style: normal;
 
 .nav-icon {
     margin-left: 65px;
-    margin-bottom: 20px;
+   
 }
 
 .container-fluid button{
@@ -104,10 +104,36 @@ font-style: normal;
     margin-top: 47px !important;
     border-radius: 10px;
 }
-@media (max-width:540px) {
-    .item-1,.item-2,.item-3,.item-4 ,.course-1,.course-2,.course-3
+@media (max-width:992px) {
+    .item-1,.item-2,.item-3,.item-4 ,.course-1,.course-2,.course-3,.t-info,.footer-body
     {
          margin: auto auto;
+    }
+}
+@media (max-width:520px) {
+
+   
+    
+    .part-2 {
+    background-color: #F0FFF0;
+    width: min-content;
+    }
+    .part-2 image{
+        transform: scale(0.8);
+    }
+    .nav-icon{
+        position: absolute;
+        left: 300px;
+        transform: scale(.7);
+        width: 100%;
+        margin: auto;
+    }
+    .navbar{
+        background-color: white;
+    }
+    #navbarNav{
+        position: absolute;
+        right:300px !important;
     }
 }
 .item-1:hover,
