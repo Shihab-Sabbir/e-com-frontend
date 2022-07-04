@@ -2,9 +2,14 @@ body {
     font-family: 'Poppins';
     font-style: normal;
 }
+<<<<<<< HEAD
 
 .container {
     min-width: 360px !important;
+=======
+.container{
+    min-width: 300px !important;
+>>>>>>> 77aa3d2df0bb00ffa66f0967d9edefd5eb43f33f
 }
 
 .navbar {
