@@ -3,7 +3,7 @@ font-family: 'Poppins';
 font-style: normal;
 }
 .container{
-    min-width: 720px !important;
+    min-width: 300px !important;
 }
 .navbar {
     background-color: #F0FFF0;
